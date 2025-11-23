@@ -245,7 +245,7 @@ class PortfolioApp {
                 category: "identite",
                 description: "Design Creative est une agence dédiée à la création visuelle professionnelle pour les PME et les entreprises en lancement.",
                 role: "Designer principal",
-                image: "../assets/images/projets/projet-identite-1.jpg"
+                image: "../assets/images/projets/projet1-identite.jpg"
             },
             {
                 id: "projet-identite-2",
@@ -253,7 +253,7 @@ class PortfolioApp {
                 category: "identite",
                 description: "Keylo Assurances – CCAK Sarl est un cabinet tchadien de conseil et de courtage en assurances, engagé à rendre la protection accessible, claire et fiable pour tous",
                 role: "Designer principal",
-                image: "../assets/images/projets/projet-identite-2.jpg"
+                image: "../assets/images/projets/projet2-identite.jpg"
             },
             {
                 id: "projet-identite-3",
@@ -261,7 +261,7 @@ class PortfolioApp {
                 category: "identite",
                 description: "AILC, créée suite au Dialogue National Inclusif et Souverain de 2022, joue un rôle central dans la prévention et la lutte contre la corruption au Tchad.",
                 role: "Designer principal",
-                image: "../assets/images/projets/projet-identite-3.jpg"
+                image: "../assets/images/projets/projet3-identite.jpg"
             },
             {
                 id: "projet-identite-4",
@@ -269,7 +269,7 @@ class PortfolioApp {
                 category: "identite",
                 description: "Réalisation de Kit d'éléments visuels",
                 role: "Designer principal",
-                image: "../assets/images/projets/projet-identite-4.jpg"
+                image: "../assets/images/projets/projet4-identite.jpg"
             },
             {
                 id: "projet-web-1",
@@ -277,7 +277,7 @@ class PortfolioApp {
                 category: "web",
                 description: "https://www.peacequare4.github.io/iny-mariama-portfolio/",
                 role: "Dev Front",
-                image: "../assets/images/projets/projet-web-1.jpg"
+                image: "../assets/images/projets/projet1-web.jpg"
             },
             {
                 id: "projet-web-2",
@@ -285,7 +285,7 @@ class PortfolioApp {
                 category: "web",
                 description: "www.delapaix.pro",
                 role: "Dev Front",
-                image: "../assets/images/projets/projet-web-2.jpg"
+                image: "../assets/images/projets/projet2-web.jpg"
             }
         ];
 
