@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arassedé Delapaix - Design Creative | Développeur, Designer & Photographe</title>
+    <meta name="description" content="Portfolio de ARASSÉDÉ Delapaix - Designer, Développeur et Photographe spécialisé dans l'accompagnement des PME avec des solutions digitales sur mesure.">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="ARASSÉDÉ Delapaix - Design Creative">
+    <meta property="og:description" content="Designer, Développeur et Photographe - Solutions digitales pour PME ambitieuses">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://arassedelapaix.com">
+    
+    <!-- Préchargement -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" as="style">
+    
+    <!-- Polices -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Skip link -->
+    <a href="#main-content" class="sr-only">Aller au contenu principal</a>
+    
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="assets/images/icons/new-logo-design-creative.ico" alt="Design Creative" class="logo-icon">
+                <div class="logo-text">
+                    <span class="logo-name">Arassedé Delapaix</span>
+                    <span class="logo-subtitle">Design Creative</span>
+                </div>
+            </a>
+            
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu" aria-expanded="false">
+                <span>|</span>
+                <span>|</span>
+                <span>|</span>
+            </button>
+            
+            <nav class="nav">
+                <ul class="nav-links">
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#testimonials">Témoignages</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="main-content">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="title-line">Arassedé Delapaix</span>
+                        <span class="title-subtitle">Développeur, Designer & Photographe</span>
+                    </h1>
+                    <p class="hero-description">
+                    Développeur, Designer et Photographe spécialisé dans l'accompagnement des PME avec des outils digitaux performants.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#portfolio" class="btn btn-primary">
+                            <span>Voir mon travail</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">Discutons de votre projet</a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="hero-carousel" id="heroCarousel">
+                        <div class="carousel-track">
+                            <div class="carousel-slide active">
+                                <picture>
+                                    <source srcset="assets/images/photos/hero-1.webp" type="image/webp">
+                                    <img src="assets/images/photos/hero-1.jpg" 
+                                         srcset="assets/images/photos/hero-1.jpg 1x, assets/images/photos/hero-1@2x.jpg 2x"
+                                         alt="Arassedé Delapaix travaillant sur un projet design" 
+                                         loading="eager">
+                                </picture>
+                            </div>
+                            <div class="carousel-slide">
+                                <picture>
+                                    <source srcset="assets/images/photos/hero-2.webp" type="image/webp">
+                                    <img src="assets/images/photos/hero-2.jpg" 
+                                         srcset="assets/images/photos/hero-2.jpg 1x, assets/images/photos/hero-2@2x.jpg 2x"
+                                         alt="ARASSÉDÉ Delapaix en séance photo professionnelle" 
+                                         loading="eager">
+                                </picture>
+                            </div>
+                            <div class="carousel-slide">
+                                <picture>
+                                    <source srcset="assets/images/photos/hero-3.webp" type="image/webp">
+                                    <img src="assets/images/photos/hero-3.jpg" 
+                                         srcset="assets/images/photos/hero-3.jpg 1x, assets/images/photos/hero-3@2x.jpg 2x"
+                                         alt="ARASSÉDÉ Delapaix lors d'une réunion client" 
+                                         loading="eager">
+                                </picture>
+                            </div>
+                        </div>
+                        
+                        <div class="carousel-controls">
+                            <button class="carousel-prev" aria-label="Image précédente">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                            <button class="carousel-next" aria-label="Image suivante">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </div>
+                        
+                        <div class="carousel-indicators">
+                            <button class="indicator active" aria-label="Afficher l'image 1"></button>
+                            <button class="indicator" aria-label="Afficher l'image 2"></button>
+                            <button class="indicator" aria-label="Afficher l'image 3"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>À propos</h2>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>De développeur à designer & photographe</h3>
+                    <p>
+                        Avec plus de trois ans d’expérience, j’ai évolué entre le développement web, le design et la photographie. Cette combinaison me permet de concevoir des projets à la fois solides sur le plan technique et marquants visuellement. Mon objectif : créer des expériences digitales simples, belles et humaines, où chaque détail sert à valoriser l’identité de la marque.
+                    </p>
+                    
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">💎</div>
+                            <h4>Design System</h4>
+                            <p>Création de systèmes de design cohérents et évolutifs</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🎨</div>
+                            <h4>Identité Visuelle</h4>
+                            <p>Développement d'identités de marque fortes et mémorables</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">📱</div>
+                            <h4>UI/UX Design</h4>
+                            <p>Interfaces intuitives et expériences utilisateur optimisées</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">⚡</div>
+                            <h4>Développement Frontend</h4>
+                            <p>Sites web performants et accessibles</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-visual">
+                    <div class="portrait-frame">
+                        <picture>
+                            <source srcset="assets/images/photos/portrait-900x1351.webp" type="image/webp">
+                            <img src="assets/images/photos/portrait-900x1351.JPG" 
+                                 alt="Portrait professionnel de ARASSÉDÉ Delapaix" 
+                                 loading="lazy">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Services & Kits</h2>
+            </div>
+            
+            <div class="services-intro">
+                <p>
+                    Je crois que chaque petite entreprise mérite de briller, quel que soit son budget. Depuis plusieurs années, j’aide les PME et indépendants à affirmer leur image grâce à des solutions digitales simples, efficaces et accessibles. Mon approche est claire : rendre le professionnalisme à la portée de tous. C’est dans cet esprit que j’ai conçu des solutions packagées(quitant de logo au site web), pensées pour simplifier la vie des entrepreneurs — parce que la transformation digitale doit être un tremplin, pas un privilège.
+                </p>
+            </div>
+            
+            <div class="kits-grid" id="kitsGrid">
+                <!-- Les kits seront injectés par JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>Portfolio</h2>
+                <p>Une sélection de mes projets récents en identité visuelle et développement web</p>
+            </div>
+            
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">Tous les projets</button>
+                <button class="filter-btn" data-filter="identite">Identité Visuelle</button>
+                <button class="filter-btn" data-filter="web">Développement Web</button>
+            </div>
+            
+            <div class="portfolio-grid" id="portfolioGrid">
+                <!-- Les projets seront injectés par JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Ils me font confiance</h2>
+                <p>Retours d'expérience de mes clients et partenaires</p>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number" data-count="50">0</div>
+                    <div class="stat-label">Et + de Projets livrés</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-count="98">0</div>
+                    <div class="stat-label">% de satisfaction</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-count="3">0</div>
+                    <div class="stat-label">Et + d'Années d'expérience</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-count="50">0</div>
+                    <div class="stat-label">ET + Clients PME</div>
+                </div>
+            </div>
+            
+            <div class="testimonials-carousel" id="testimonialsCarousel">
+                <!-- Les témoignages seront injectés par JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <!-- Contact Section
+            <div class="section-header">
+                <h1>Contact</h1>
+            </div>-->
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Prenez contact</h2>
+<p>Discutons de votre projet et voyons comment je peux vous accompagner</p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M22 6L12 13L2 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div class="method-details">
+                                <strong>Email</strong>
+                                <a href="mailto:ing.arassede.delapaix@gmail.com">ing.arassede.delapaix@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M22 16.92V19.92C22 20.52 21.53 20.99 20.96 21.08C20.58 21.14 20.2 21.17 19.82 21.17C16.37 21.17 13.06 19.94 10.47 17.53C7.88 15.12 6.09 11.82 5.42 8.2C5.25 7.21 5.25 6.21 5.42 5.22C5.51 4.65 5.98 4.18 6.58 4.18H9.58C10.18 4.18 10.65 4.65 10.75 5.22C11.02 6.74 11.55 8.21 12.32 9.57C12.59 10.07 12.5 10.69 12.09 11.08L11.36 11.81C12.42 14.33 14.17 16.58 16.69 17.64L17.42 16.91C17.81 16.5 18.43 16.41 18.93 16.68C20.29 17.45 21.76 17.98 23.28 18.25C23.85 18.35 24.32 18.82 24.32 19.42V22.42" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div class="method-details">
+                                <strong>Téléphone</strong>
+                                <a href="tel:+33612345678">+237 692981267 / 659222602</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/arassede" aria-label="LinkedIn" class="social-link">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M16 8C17.5913 8 19.1174 8.63214 20.2426 9.75736C21.3679 10.8826 22 12.4087 22 14V21H18V14C18 13.4696 17.7893 12.9609 17.4142 12.5858C17.0391 12.2107 16.5304 12 16 12C15.4696 12 14.9609 12.2107 14.5858 12.5858C14.2107 12.9609 14 13.4696 14 14V21H10V14C10 12.4087 10.6321 10.8826 11.7574 9.75736C12.8826 8.63214 14.4087 8 16 8Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M6 9H2V21H6V9Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M4 6C5.10457 6 6 5.10457 6 4C6 2.89543 5.10457 2 4 2C2.89543 2 2 2.89543 2 4C2 5.10457 2.89543 6 4 6Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <a href="https://peacequare4.github.io/" aria-label="Dribbble" class="social-link">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M12 2C13.3132 2 14.6136 2.25866 15.8268 2.7612C17.0401 3.26375 18.1425 4.00035 19.0711 4.92893C19.9997 5.85752 20.7362 6.95991 21.2388 8.17317C21.7413 9.38642 22 10.6868 22 12C22 13.3132 21.7413 14.6136 21.2388 15.8268C20.7362 17.0401 19.9997 18.1425 19.0711 19.0711C18.1425 19.9997 17.0401 20.7362 15.8268 21.2388C14.6136 21.7413 13.3132 22 12 22C10.6868 22 9.38642 21.7413 8.17317 21.2388C6.95991 20.7362 5.85752 19.9997 4.92893 19.0711C4.00035 18.1425 3.26375 17.0401 2.7612 15.8268C2.25866 14.6136 2 13.3132 2 12C2 10.6868 2.25866 9.38642 2.7612 8.17317C3.26375 6.95991 4.00035 5.85752 4.92893 4.92893C5.85752 4.00035 6.95991 3.26375 8.17317 2.7612C9.38642 2.25866 10.6868 2 12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M8.5 21C8.5 21 5 17.5 4 14.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M15.5 21C15.5 21 19 17.5 20 14.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M19 8C19 8 16 10 12 10C8 10 5 8 5 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <a href="https://web.facebook.com/Delapaix.designer" aria-label="Facebook" class="social-link">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M18 2H15C13.6739 2 12.4021 2.52678 11.4645 3.46447C10.5268 4.40215 10 5.67392 10 7V10H7V14H10V22H14V14H17L18 10H14V7C14 6.73478 14.1054 6.48043 14.2929 6.29289C14.4804 6.10536 14.7348 6 15 6H18V2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <p>Je réponds à toutes vos questions sous 24 heures.</p>
+                </div>
+                
+                <form action="https://formspree.io/f/xeovogqd" method="POST" class="contact-form" id="contactForm" >
+                    <div class="form-group">
+                        <label for="name" class="form-label">Nom complet *</label>
+                        <input type="text" id="name" name="name" required class="form-input">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email *</label>
+                        <input type="email" id="email" name="email" required class="form-input">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject" class="form-label">Sujet *</label>
+                        <select id="subject" name="subject" required class="form-input">
+                            <option value="">Sélectionnez un sujet</option>
+                            <option value="kit">Commandez un kit</option>
+                            <option value="web">Projet web</option>
+                            <option value="design">Design d'identité</option>
+                            <option value="photo">Projet photo</option>
+                            <option value="other">Autre</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message *</label>
+                        <textarea id="message" name="message" rows="5" required class="form-input"></textarea>
+                    </div>
+                    
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="consent" name="consent" required>
+                        <label for="consent" class="checkbox-label">
+                            J'accepte que mes données soient utilisées pour répondre à ma demande *
+                        </label>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <span class="btn-text">Envoyer le message</span>
+                        <div class="btn-loader" aria-hidden="true"></div>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer"> 
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="footer-logo">
+                        <img src="assets/images/icons/logosurblanc.jpg" alt="Design Creative" class="logo-icon">
+                        <div class="logo-text">
+                            <span class="logo-name">Arassedé Delapaix</span>
+                            <span class="logo-subtitle">Design Creative</span>
+                        </div>
+                    </a>
+                    <p class="footer-description">
+                        Transformation digitale pour PME ambitieuses. Design, développement et photographie sur mesure.
+                    </p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-nav">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="#about">À propos</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#testimonials">Témoignages</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-services">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#services">Kits packagés</a></li>
+                            <li><a href="#services">Design d'identité</a></li>
+                            <li><a href="#services">Développement web</a></li>
+                            <li><a href="#services">Photographie</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2025 Arassedé Delapaix - Design Creative. Tous droits réservés.</p>
+                <p class="credit">Conçu et développé par Arassedé Delapaix</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modals -->
+    <div class="modal" id="modal" aria-hidden="true" role="dialog" aria-modal="false">
+        <div class="modal-overlay" data-modal-close></div>
+        <div class="modal-content" role="document">
+            <button class="modal-close" aria-label="Fermer" data-modal-close>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+            <div class="modal-body" id="modalBody">
+                <!-- Contenu de la modale injecté par JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
